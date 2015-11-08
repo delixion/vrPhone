@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21D7305C1BEF8D91009F098D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7305B1BEF8D91009F098D /* AppDelegate.swift */; };
+		21D7305E1BEF8D91009F098D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7305D1BEF8D91009F098D /* FirstViewController.swift */; };
+		21D730601BEF8D91009F098D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7305F1BEF8D91009F098D /* SecondViewController.swift */; };
+		21D730631BEF8D91009F098D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D730611BEF8D91009F098D /* Main.storyboard */; };
+		21D730651BEF8D91009F098D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D730641BEF8D91009F098D /* Assets.xcassets */; };
+		21D730681BEF8D91009F098D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D730661BEF8D91009F098D /* LaunchScreen.storyboard */; };
+		21D730731BEF8D91009F098D /* vrPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D730721BEF8D91009F098D /* vrPhoneTests.swift */; };
+		21D7307E1BEF8D91009F098D /* vrPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7307D1BEF8D91009F098D /* vrPhoneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21D7306F1BEF8D91009F098D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21D730501BEF8D90009F098D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21D730571BEF8D90009F098D;
+			remoteInfo = vrPhone;
+		};
+		21D7307A1BEF8D91009F098D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21D730501BEF8D90009F098D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21D730571BEF8D90009F098D;
+			remoteInfo = vrPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21D730581BEF8D91009F098D /* vrPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vrPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D7305B1BEF8D91009F098D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21D7305D1BEF8D91009F098D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		21D7305F1BEF8D91009F098D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		21D730621BEF8D91009F098D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21D730641BEF8D91009F098D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21D730671BEF8D91009F098D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21D730691BEF8D91009F098D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D7306E1BEF8D91009F098D /* vrPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vrPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D730721BEF8D91009F098D /* vrPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vrPhoneTests.swift; sourceTree = "<group>"; };
+		21D730741BEF8D91009F098D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D730791BEF8D91009F098D /* vrPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vrPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D7307D1BEF8D91009F098D /* vrPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vrPhoneUITests.swift; sourceTree = "<group>"; };
+		21D7307F1BEF8D91009F098D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21D730551BEF8D90009F098D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D7306B1BEF8D91009F098D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D730761BEF8D91009F098D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21D7304F1BEF8D90009F098D = {
+			isa = PBXGroup;
+			children = (
+				21D7305A1BEF8D91009F098D /* vrPhone */,
+				21D730711BEF8D91009F098D /* vrPhoneTests */,
+				21D7307C1BEF8D91009F098D /* vrPhoneUITests */,
+				21D730591BEF8D91009F098D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21D730591BEF8D91009F098D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21D730581BEF8D91009F098D /* vrPhone.app */,
+				21D7306E1BEF8D91009F098D /* vrPhoneTests.xctest */,
+				21D730791BEF8D91009F098D /* vrPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21D7305A1BEF8D91009F098D /* vrPhone */ = {
+			isa = PBXGroup;
+			children = (
+				21D7305B1BEF8D91009F098D /* AppDelegate.swift */,
+				21D7305D1BEF8D91009F098D /* FirstViewController.swift */,
+				21D7305F1BEF8D91009F098D /* SecondViewController.swift */,
+				21D730611BEF8D91009F098D /* Main.storyboard */,
+				21D730641BEF8D91009F098D /* Assets.xcassets */,
+				21D730661BEF8D91009F098D /* LaunchScreen.storyboard */,
+				21D730691BEF8D91009F098D /* Info.plist */,
+			);
+			path = vrPhone;
+			sourceTree = "<group>";
+		};
+		21D730711BEF8D91009F098D /* vrPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				21D730721BEF8D91009F098D /* vrPhoneTests.swift */,
+				21D730741BEF8D91009F098D /* Info.plist */,
+			);
+			path = vrPhoneTests;
+			sourceTree = "<group>";
+		};
+		21D7307C1BEF8D91009F098D /* vrPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21D7307D1BEF8D91009F098D /* vrPhoneUITests.swift */,
+				21D7307F1BEF8D91009F098D /* Info.plist */,
+			);
+			path = vrPhoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21D730571BEF8D90009F098D /* vrPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D730821BEF8D91009F098D /* Build configuration list for PBXNativeTarget "vrPhone" */;
+			buildPhases = (
+				21D730541BEF8D90009F098D /* Sources */,
+				21D730551BEF8D90009F098D /* Frameworks */,
+				21D730561BEF8D90009F098D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vrPhone;
+			productName = vrPhone;
+			productReference = 21D730581BEF8D91009F098D /* vrPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21D7306D1BEF8D91009F098D /* vrPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D730851BEF8D91009F098D /* Build configuration list for PBXNativeTarget "vrPhoneTests" */;
+			buildPhases = (
+				21D7306A1BEF8D91009F098D /* Sources */,
+				21D7306B1BEF8D91009F098D /* Frameworks */,
+				21D7306C1BEF8D91009F098D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21D730701BEF8D91009F098D /* PBXTargetDependency */,
+			);
+			name = vrPhoneTests;
+			productName = vrPhoneTests;
+			productReference = 21D7306E1BEF8D91009F098D /* vrPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21D730781BEF8D91009F098D /* vrPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D730881BEF8D91009F098D /* Build configuration list for PBXNativeTarget "vrPhoneUITests" */;
+			buildPhases = (
+				21D730751BEF8D91009F098D /* Sources */,
+				21D730761BEF8D91009F098D /* Frameworks */,
+				21D730771BEF8D91009F098D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21D7307B1BEF8D91009F098D /* PBXTargetDependency */,
+			);
+			name = vrPhoneUITests;
+			productName = vrPhoneUITests;
+			productReference = 21D730791BEF8D91009F098D /* vrPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21D730501BEF8D90009F098D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = delixion;
+				TargetAttributes = {
+					21D730571BEF8D90009F098D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					21D7306D1BEF8D91009F098D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 21D730571BEF8D90009F098D;
+					};
+					21D730781BEF8D91009F098D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 21D730571BEF8D90009F098D;
+					};
+				};
+			};
+			buildConfigurationList = 21D730531BEF8D90009F098D /* Build configuration list for PBXProject "vrPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21D7304F1BEF8D90009F098D;
+			productRefGroup = 21D730591BEF8D91009F098D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21D730571BEF8D90009F098D /* vrPhone */,
+				21D7306D1BEF8D91009F098D /* vrPhoneTests */,
+				21D730781BEF8D91009F098D /* vrPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21D730561BEF8D90009F098D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D730681BEF8D91009F098D /* LaunchScreen.storyboard in Resources */,
+				21D730651BEF8D91009F098D /* Assets.xcassets in Resources */,
+				21D730631BEF8D91009F098D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D7306C1BEF8D91009F098D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D730771BEF8D91009F098D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21D730541BEF8D90009F098D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D730601BEF8D91009F098D /* SecondViewController.swift in Sources */,
+				21D7305C1BEF8D91009F098D /* AppDelegate.swift in Sources */,
+				21D7305E1BEF8D91009F098D /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D7306A1BEF8D91009F098D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D730731BEF8D91009F098D /* vrPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D730751BEF8D91009F098D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D7307E1BEF8D91009F098D /* vrPhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21D730701BEF8D91009F098D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21D730571BEF8D90009F098D /* vrPhone */;
+			targetProxy = 21D7306F1BEF8D91009F098D /* PBXContainerItemProxy */;
+		};
+		21D7307B1BEF8D91009F098D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21D730571BEF8D90009F098D /* vrPhone */;
+			targetProxy = 21D7307A1BEF8D91009F098D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21D730611BEF8D91009F098D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D730621BEF8D91009F098D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21D730661BEF8D91009F098D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D730671BEF8D91009F098D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21D730801BEF8D91009F098D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21D730811BEF8D91009F098D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21D730831BEF8D91009F098D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vrPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delixion.vrPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21D730841BEF8D91009F098D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vrPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delixion.vrPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21D730861BEF8D91009F098D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = vrPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delixion.vrPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vrPhone.app/vrPhone";
+			};
+			name = Debug;
+		};
+		21D730871BEF8D91009F098D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = vrPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delixion.vrPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vrPhone.app/vrPhone";
+			};
+			name = Release;
+		};
+		21D730891BEF8D91009F098D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = vrPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delixion.vrPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = vrPhone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		21D7308A1BEF8D91009F098D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = vrPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delixion.vrPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = vrPhone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21D730531BEF8D90009F098D /* Build configuration list for PBXProject "vrPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D730801BEF8D91009F098D /* Debug */,
+				21D730811BEF8D91009F098D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21D730821BEF8D91009F098D /* Build configuration list for PBXNativeTarget "vrPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D730831BEF8D91009F098D /* Debug */,
+				21D730841BEF8D91009F098D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21D730851BEF8D91009F098D /* Build configuration list for PBXNativeTarget "vrPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D730861BEF8D91009F098D /* Debug */,
+				21D730871BEF8D91009F098D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21D730881BEF8D91009F098D /* Build configuration list for PBXNativeTarget "vrPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D730891BEF8D91009F098D /* Debug */,
+				21D7308A1BEF8D91009F098D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21D730501BEF8D90009F098D /* Project object */;
+}
